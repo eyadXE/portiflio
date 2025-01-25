@@ -1,0 +1,72 @@
+body {
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body take the full viewport height */
+    background-color: hsl(0, 2%, 10%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: hsl(0, 4%, 17%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    color: white;
+    font-family: Inter, sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 5px 0; 
+}
+
+.container h4 {
+    color: hsl(75, 94%, 57%);
+    font-family: Inter, sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin: 0; 
+}
+
+.container h3 {
+    color: hsl(0, 0%, 100%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+}
+
+.container img {
+    width: 20%; 
+    border-radius: 10px;
+}
+.container a {
+    text-decoration: none; /* Remove underline from link */
+    width: 100%; /* Make the anchor element the same width as the button */
+    display: flex; /* Ensure the anchor and button align correctly */
+    justify-content: center; /* Center the button within the anchor */
+}
+.container button {
+    width: 80%;
+    border-radius: 10px;
+    padding: 8px;
+    color: wheat;
+    background-color: hsl(0, 0%, 20%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    transition: 200ms;
+    flex-direction: column; 
+
+}
+
+.container button:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+    width: 85%;
+}
